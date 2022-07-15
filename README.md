@@ -4,7 +4,7 @@ This repo was created by Benjamin Osmers as a starter template for React, Expres
 
 ## Build status
 
-[![Build Status](https://img.shields.io/appveyor/build/BenjaminOsmers/convergenc3)](https://github.com/BenjaminOsmers/convergenc3)
+[![Build Status](https://img.shields.io/appveyor/build/BOsmers/react-express-template)](https://github.com/BOsmers/react-express-template)
 
 ## Tech stack used
 
