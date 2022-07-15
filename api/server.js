@@ -3,13 +3,10 @@ import dotenv from "dotenv";
 import morgan from "morgan";
 import colors from "colors";
 import path from "path";
-import connectDB from "./config/db.js";
-import userRoutes from "./routes/userRoutes.js";
 import { errorHandler } from "./middleware/errorMiddleware.js";
+import exampleRoute from "./routes/exampleRoute.js";
 
 dotenv.config();
-
-connectDB();
 
 const app = express();
 
@@ -19,7 +16,7 @@ if (process.env.NODE_ENV === "development") {
 
 app.use(express.json());
 
-app.use("/api/heights", userRoutes);
+app.use("/api/example", exampleRoute);
 
 const __dirname = path.resolve();
 

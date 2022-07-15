@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Template for a ReactJS, NodeJS (Express) web app",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node api/server",
     "server": "nodemon api/server",
