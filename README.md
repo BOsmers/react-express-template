@@ -2,10 +2,6 @@
 
 This repo was created by Benjamin Osmers as a starter template for React, Express web apps.
 
-## Build status
-
-[![Build Status](https://img.shields.io/appveyor/build/BOsmers/react-express-template)](https://github.com/BOsmers/react-express-template)
-
 ## Tech stack used
 
 <p style="display: flex; justify-content:space-around; align-items: center; width: 100%;">
