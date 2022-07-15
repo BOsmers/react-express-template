@@ -1,0 +1,34 @@
+{
+  "name": "react-express-template",
+  "version": "1.0.0",
+  "description": "Template for a ReactJS, NodeJS (Express) web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/server",
+    "server": "nodemon api/server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOsmers/react-express-template.git"
+  },
+  "author": "Benjamin Osmers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BOsmers/react-express-template/issues"
+  },
+  "homepage": "https://github.com/BOsmers/react-express-template#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.19"
+  }
+}
